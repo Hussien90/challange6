@@ -26,7 +26,7 @@ body {
 }
 @media(max-width:767px){
     .main-heading .container .box{
-        grid-template-rows: 1fr 50px 1fr;
+        grid-template-columns: repeat(1 , 1fr);
         
     }
 }
