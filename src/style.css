@@ -1,0 +1,93 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display';
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.main-heading .container{
+    margin: 0 auto;
+}
+.main-heading .container .box{
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr);
+    
+}
+@media(max-width:767px){
+    .main-heading .container .box{
+        grid-template-rows: 1fr 50px 1fr;
+        
+    }
+}
+.main-heading .container .box .mini-box{
+    padding: 50px;
+}
+.main-heading .container .box .mini-box h1{
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+}
+.main-heading .container .box .mini-box p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-heading .container .box .sedan{
+background-color: hsl(31, 77%, 52%);
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+.main-heading .container .box .sedan .mini-box button{
+width: 120px;
+height: 40px;
+border-radius: 30px;
+border-color: none;
+border: none;
+margin-top: 30px;
+color: hsl(31, 77%, 52%);
+font-family: 'Lexend Deca', sans-serif;
+}
+.main-heading .container .box .suvs{
+background-color: hsl(184, 100%, 22%);
+}
+.main-heading .container .box .suvs .mini-box button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: none;
+    border: none;
+    margin-top: 30px;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    }
+.main-heading .container .box .luxury{
+background-color: hsl(179, 100%, 13%);
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+}
+.main-heading .container .box .luxury .mini-box button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: none;
+    border: none;
+    margin-top: 30px;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    }
+
+
+
